@@ -1,0 +1,1036 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+}
+.text
+{
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+  /*  background-color: aqua;*/
+}
+.container-fluid
+{
+    width: 100%;
+}
+.text1
+{
+   position: relative;
+   top: 52px;
+   left: 140px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+
+    color: white;
+}
+.text2
+{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 142px;
+    margin-top: 63px;
+}
+.input1
+{
+    margin-top: 20px;
+    margin-left:138px ;
+    height: 34px;
+    width: 396px;
+    padding: 1px;
+
+    border: 3px solid rgb(254, 251, 251);
+    border-radius: 7px;
+    background-color: white;
+    align-items: center;  
+}
+.input2
+{
+    margin-top: 20px;
+    margin-left:-13px ;
+    height: 34px;
+    width: 396px;
+    padding: 1px;
+
+    border: 3px solid rgb(254, 251, 251);
+    border-radius: 7px;
+    background-color: white;
+    align-items: center;  
+}
+.input1::placeholder {
+    text-align: right; /* Align placeholder text to the right */
+    direction: rtl; /* Set direction to right-to-left */
+    padding-left: 10px;
+    position: relative;
+    left: -245px; /* Add padding to move the placeholder text a little bit from the left */
+}
+.input2::placeholder {
+    text-align: right; /* Align placeholder text to the right */
+    direction: rtl; /* Set direction to right-to-left */
+    padding-left: 10px;
+    position: relative;
+    left: -230px; /* Add padding to move the placeholder text a little bit from the left */
+}
+.ri-send-plane-fill{
+    font-size: 16px;
+    margin-top: 20px;
+    
+    position: relative;
+    top: -54px;
+    left: 498px;
+}
+.ri-radio-button-fill
+{
+    font-size: 11px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: -18px;
+    position: relative;
+    top: -57px;
+    left: 92px;
+
+}
+.ri-stop-mini-line
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: -13px;
+    position: relative;
+    top: 1px;
+    left: 26px;
+
+}
+.col-md-6 button
+{
+    margin-left: 138px;
+}
+
+.uberimg
+{ 
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+    /*background-color: rgb(255, 123, 0);*/
+
+}
+.uimg{
+    height: 627px;
+    width: 543px;
+}
+
+.driverimg
+{ 
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 123, 0);
+
+}
+.dimg{
+    height: 500px;
+    width: 543px;
+    margin-left: 78px;
+}
+.drivehead
+{margin-top: 146px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 53px;
+    font-weight: 660;
+    line-height: 52px;
+    margin-left: 110px;
+}
+.drivepara
+{margin-top:29px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-left: 108px;
+}
+
+.drivetxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    
+   
+}
+.col-md-6 a{
+    margin-left: -14px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: 14px;
+    
+}
+.driver button
+{
+    position: relative;
+    top: 4px;
+    left: -31px;
+   
+}
+.uberbusinesshead 
+{margin-top: 112px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 658;
+    line-height: 54px;
+    margin-left: 95px;
+}
+.uberbusinesspara
+{
+    margin-top: 36px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-left: 90px;
+
+
+
+}
+.uberbusinesstxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+}
+.business button{
+    position: relative;
+    top: 12px;
+    left: -54px;
+}
+.business a
+{
+    margin-left: -37px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: 20px;  
+}
+.businessimg
+{
+    height: 500px;
+    width: 543px;
+    margin-left: 78px;
+    margin-top: 80px;
+}
+.rentimg
+{
+    height: 485px;
+    width: 526px;
+    margin-top: 87px;
+    margin-left: 81px;
+
+}
+.rentcarhead
+{margin-top: 200px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 650;
+    line-height: 54px;
+    margin-left: 106px;
+}
+.rentcarpara
+{
+    margin-top: 31px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 490;
+    line-height: 24px;
+    margin-left: 108px;
+}
+.rent button{
+    position: relative;
+    top: 12px;
+    left: -29px;
+}
+.app
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(250, 245, 245);
+
+}
+.app h1
+{margin-top: -87px;
+    margin-left: 120px;
+    padding: 30px;
+    
+        font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        line-height:1px;
+        float: left;
+        
+}
+.uberapp
+{
+    
+    margin-top: 150px;
+    margin-left: 137px;
+   
+    height: 200px;
+    width: 550px;
+    background-color: rgba(246, 247, 250, 0.984); 
+    position: relative;
+    top: 2px;
+    
+}
+.uberapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.dwnh a
+{
+ padding: 30px;
+ font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;     
+ line-height: 32px;
+ letter-spacing: 0;
+ margin-left: 133px;
+ width: 100%;
+ text-decoration: none;
+ color: black;
+ position: relative;
+ top: -110px;
+ cursor: pointer;
+ font-size: 24px; 
+ font-weight: 700;
+}
+.dwnp a{
+    margin-left: 164px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: -105px;
+}
+
+.uberapp i{
+ font-size: 25px;
+ position: relative;
+ top: -170px;
+ left: 495px;
+
+    
+}
+.driverapp
+{float: left;
+    margin-top: -201px;
+    margin-left: 718px;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(246, 247, 250, 0.984);
+}
+.driverapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+.down2h a {
+    
+    padding: 30px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-left: 132px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -109px;
+    cursor: pointer;
+    font-size: 24px; 
+    font-weight: 700;
+} 
+.down2p a{
+    margin-left: 164px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: -105px;
+}
+.driverapp i{ 
+    font-size: 25px;
+    position: relative;
+    top: -170px;
+    left: 525px;
+}
+
+.ft1
+{margin-top: 58px;
+    margin-left: 190px;
+    height: 100px;
+width: 80%;
+padding: 10px;
+line-height: 46px;
+
+}
+.uber
+{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 112p;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    
+
+}
+.helpcenter
+{
+    
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 112p;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.col-md-3 
+{
+    width: 25%;
+    padding:5 15px;
+}
+.col-md-3 h4{
+    margin-top: 60px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 200px;
+}
+.col-md-3 li
+{
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: 161px;
+}
+.col-md-3 a{ 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+}
+.col-md-1
+{
+    width: 4px;
+    padding: 40px;
+    position: relative;
+    left: 1px;
+}
+.social-link
+{
+    width:3px;
+}
+.social-link a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: -109px;
+    padding: -42px;
+    font-size: 18px;
+    margin-left: 95px;
+    color: white;
+margin-left: 182px;
+
+    
+}
+.lang
+{float: left;
+    margin-top: 43px;
+    height: 25px;
+    margin-left: 448px;
+    position: relative;
+    
+    top: 20px;
+}
+.lang a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.lang i{
+    position: relative;
+    left: -22px;
+    top: 24px;
+}
+
+
+
+.place
+{float: right;
+    margin-top: 62px;
+    height: 50px;
+    width: 10%;
+    margin-right: -99px;
+    /* background-color: aquamarine; */
+}
+.place a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.place i{
+    position: relative;
+    top: 24px;
+}
+.col a{
+    font-family:"Poppins", sans-serif; 
+    font-size: 12px;
+    color: white;
+    text-decoration: none;padding: 4px;
+} 
+.googleplay
+{
+    margin-left: 207px;
+    margin-top: -32px;
+}
+.playstore
+{
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+.tech1
+{
+    font-family:Poppins, sans-serif; 
+        font-size: 12px;
+        color: white;
+        margin-left: 174px;
+}
+
+@media screen and (max-width: 600px) 
+{
+   
+    .text1
+    {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 32px;
+        margin-left: -99px;
+    }
+    .text2
+    { 
+        font-size: 14px;
+        margin-left: 44px; 
+    }
+    .input1
+    {
+        margin-top: 16px;
+        margin-left: 41px;
+        height: 26px;
+        width: 278px;
+       /* padding: 1px;
+    
+        border: 3px solid rgb(254, 251, 251);
+        border-radius: 7px;
+        background-color: white;
+        align-items: center; */ 
+    }
+    .input2
+    {
+        margin-top: -11px;
+        margin-left: 41px;
+        height: 26px;
+        width: 281px;
+       /* padding: 1px;
+    
+        border: 3px solid rgb(254, 251, 251);
+        border-radius: 7px;
+        background-color: white;
+        align-items: center;*/  
+    }
+    .input1::placeholder {
+        text-align: right; /* Align placeholder text to the right */
+        direction: rtl; /* Set direction to right-to-left */
+        padding-left: 10px;
+        position: relative;
+        left: -160px; /* Add padding to move the placeholder text a little bit from the left */
+    }
+    .input2::placeholder {
+        text-align: right; /* Align placeholder text to the right */
+        direction: rtl; /* Set direction to right-to-left */
+        padding-left: 10px;
+        position: relative;
+        left: -140px; /* Add padding to move the placeholder text a little bit from the left */
+    }
+    .col-md-6 button {
+        margin-left: 45px;
+    }
+    
+    .uimg{
+        height: 307px;
+        width: 333px;
+        margin-left: -4px;
+        margin-top: 20px;
+}
+.container-fluid
+{
+    width: 100%;
+}
+.dimg{
+    height: 227px;
+    width: 294px;
+    margin-left: 10px;
+}
+
+.drivehead
+{margin-top: 31px;
+    
+    font-size: 24px;
+    font-weight: 660;
+    line-height: 21px;
+    margin-left: 49px;
+
+}
+.drivepara
+{margin-top: 11px;
+    letter-spacing: 0;
+   
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 12px;
+    margin-left: 48px;
+
+}
+
+.drivetxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    
+   
+}
+.col-md-6 a{
+    margin-left: 92px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 7px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: 9px;
+   
+}
+.driver button
+{
+    position: relative;
+        top: 3px;
+        left: 31px;
+       
+}
+.uberbusinesshead 
+{margin-top: 21px;
+
+    font-size: 26px;
+    font-weight: 658;
+    line-height: 27px;
+    margin-left: 47px;
+}
+.uberbusinesspara
+{
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 13px;
+    margin-left: 48px;
+}
+.uberbusinesstxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+}
+.business button{
+    position: relative;
+    top: 12px;
+    left: -78px;
+}
+.businessimg
+{
+    height: 227px;
+    width: 294px;
+    margin-left: 10px;
+}
+.rentimg{
+    height: 227px;
+    width: 294px;
+    margin-left: 10px;
+}
+.rentcarhead
+{        margin-top: 46px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 650;
+    margin-left: 28px;
+    line-height: 27px;
+    
+}
+.rentcarpara
+{
+    margin-top: 31px;
+        letter-spacing: 0;
+        font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 490;
+        line-height: 19px;
+        margin-left: 30px;
+    
+}
+.rent button{
+    position: relative;
+    top: 12px;
+    left: -27px;
+}
+.app h1
+{
+margin-top: -123px;
+        margin-left: -2px;
+        padding: 30px;
+
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1px;
+        float: left;
+    }
+.uberapp
+{
+    margin-top: 150px;
+        margin-left: 12px;
+        height: 117px;
+        width: 312px;
+        background-color: rgba(246, 247, 250, 0.984);
+        position: relative;
+        top: -60px;
+}
+.uberapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+    width: 115px;
+    height: 115px;
+}
+
+.uberapp a {
+    
+    margin-top: -116px;
+    margin-left: 65px;
+    padding: 30px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1px;
+    float: left;
+}
+
+.uberapp i{
+    font-size: 20px;
+    position: relative;
+    top: -19px;
+    left: 187px;
+}
+    
+
+
+.driverapp
+{
+    margin-top: -98px;
+        margin-left: 10px;
+        height: 125px;
+        width: 319px;
+        background-color: rgba(246, 247, 250, 0.984);
+}
+.driverapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+    width: 115px;
+    height: 115px;
+}
+/*.driverapp a {
+    
+  
+    
+    
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-left: 167px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -109px;
+    cursor: pointer;
+} 
+*/
+.dwnh a
+{
+    margin-left: 78px;
+    width: 100%;
+    position: relative;
+    top: 9px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.dwnp a{
+    margin-left: 79px;
+    font-size: 9px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    position: relative;
+    top: 2px;
+
+}
+.down2h a
+ {
+    margin-left: 79px;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    top: -95px;
+    font-size: 13px;
+    font-weight: 700;
+   } 
+.down2p a
+{
+    margin-left: 110px;
+    font-size: 11px;
+    position: relative;
+    top: -111px;
+}
+.driverapp i{ 
+    font-size: 20px;
+    position: relative;
+    top: -152px;
+    left: 188px
+}
+.uber{
+    margin-left: -72px;
+}
+.helpcenter{
+    margin-left: -70px;
+}
+.col-md-3 
+{
+    width: 50%;
+    padding:0 15px;
+}
+.col-md-3 h4{
+    margin-top: 60px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: -1px;
+}
+.col-md-3 li
+{
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: -42px;
+}
+.col-md-3 a{ 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+}
+.social-link a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: -109px;
+    padding: -42px;
+    font-size: 18px;
+    margin-left: 95px;
+    color: white;
+margin-left: 199px;
+
+    
+}
+.lang
+{float: left;
+    margin-top: 61px;
+    height: 25px;
+    margin-left: 420px;
+}
+.lang a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.place
+{float:right;
+    margin-top: 24px;
+    height: 50px;
+    width: 10%;
+    margin-right: 176px;
+    
+ /* background-color: aquamarine;*/
+}
+.place a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.place i{
+    position: relative;
+    top: 24px;
+}
+.col a{
+    font-family:"Poppins", sans-serif; 
+    font-size: 12px;
+    color: white;
+    text-decoration: none;padding: 4px;
+} 
+.col-md-1
+{
+    width: 4px;
+    padding: 18px;
+    position: relative;
+    left: -211px;
+}
+.lang
+{float: left;
+    margin-top: 39px;
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    top: -33px;
+}
+
+
+.lang a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.lang i{
+    position: relative;
+    left: -2px;
+    top: -1px;
+}
+
+
+
+.place
+{float: right;
+    margin-top: -4px;
+    height: 50px;
+    width: 10%;
+    margin-right: 179px;
+    position: relative;
+    top: -53px;
+    /* background-color: aquamarine; */
+}
+.place a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.place i{
+    position: relative;
+    top: 0px;
+}
+.googleplay
+{
+    margin-left: 1px;
+    margin-top: -100px;
+}
+.playstore
+{
+    margin-left: 127px;
+    margin-top: -98px;
+
+}
+.tech1
+{
+    font-family:Poppins, sans-serif; 
+        font-size: 10px;
+        color: white;
+        margin-left: -10px;
+}
+}
